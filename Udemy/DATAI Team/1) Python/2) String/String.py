@@ -6,4 +6,4 @@ veriable_type = type(s)
 
 print(s)
 
-uzunluk = len(ver3)
+uzunluk = len(s)
