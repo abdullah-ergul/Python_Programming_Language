@@ -1,8 +1,8 @@
 try:
-    file= open("data.txt","r",encoding="utf-8")
+    filea= open("data.txt","r")
 except:
     print("Cant Open File")
 else:
-    file.write("Selam!")
+    print("Selam!")
 finally:
-    file.write("--END OF FILE--")
+    print("--END OF FILE--")
